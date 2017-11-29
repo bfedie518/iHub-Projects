@@ -33,9 +33,9 @@ adjustment = .0625
 
 def main():
     mat_width = (float)(input("Material thickness: "))
-    disp_height = (float)(input("Display height (recommended: 1): "))
     disp_length = (float)(input("Display length (recommended: 7): ")) 
     filename = input("Filename: ")
+    disp_height = (1.0 / 7.0) * disp_length
 
     if not filename.endswith(".svg"):
         filename += ".svg"
@@ -49,11 +49,11 @@ def main():
     front['height'] = disp_height + 2 * mat_width
 
     left = {'name' : "left"}
-    left['width'] = 2 * mat_width
+    left['width'] = 2 * mat_width + adjustment
     left['height'] = disp_height + 2 * mat_width
 
     right = {'name' : "right"}
-    right['width'] = 2 * mat_width
+    right['width'] = 2 * mat_width + adjustment
     right['height'] = disp_height + 2 * mat_width
 
     top = {'name' : "top"}
@@ -66,11 +66,11 @@ def main():
 
     slider_base = {'name' : "slider_base"}
     slider_base['width'] = (4.0/7.0) * disp_length - (.25/7.0) * disp_length
-    slider_base['height'] = disp_height
+    slider_base['height'] = disp_height - adjustment / 2.0
 
     slider_end = {'name' : "slider_end"}
     slider_end['width'] = (14.0/3.0) * mat_width
-    slider_end['height'] = disp_height - adjustment
+    slider_end['height'] = disp_height - adjustment / 2.0
 
 
     back['x'] = .125

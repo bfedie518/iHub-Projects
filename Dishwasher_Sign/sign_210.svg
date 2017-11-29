@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg116"
+   version="1.1"
+   viewBox="0 0 812.8 457.2"
+   height="18in"
+   width="32in">
+  <defs
+     id="defs110" />
+  <metadata
+     id="metadata113">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+    style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.00035278;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+    id='back'
+    width='172.46599999999998'
+    height='25.4'
+    x='3.175'
+    y='3.175' />
+  <rect
+    style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.00035278;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+    id='top'
+    width='172.46599999999998'
+    height='12.2555'
+    x='3.175'
+    y='31.75' />
+  <rect
+    style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.00035278;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+    id='bottom'
+    width='172.46599999999998'
+    height='12.2555'
+    x='3.175'
+    y='47.180499999999995' />
+  <rect
+    style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.00035278;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+    id='front'
+    width='101.6'
+    height='36.068'
+    x='3.175'
+    y='62.61099999999999' />
+  <rect
+    style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.00035278;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+    id='left'
+    width='12.2555'
+    height='36.068'
+    x='107.94999999999999'
+    y='62.61099999999999' />
+  <rect
+    style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.00035278;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+    id='right'
+    width='12.2555'
+    height='36.068'
+    x='123.3805'
+    y='62.61099999999999' />
+  <rect
+    style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.00035278;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+    id='slider_end'
+    width='24.892'
+    height='23.8125'
+    x='138.81099999999998'
+    y='62.61099999999999' />
+  <rect
+    style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.00035278;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+    id='slider_base'
+    width='95.25'
+    height='23.8125'
+    x='3.175'
+    y='101.85399999999998' />
+
+</svg>
