@@ -4,3 +4,6 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+adjustment	dishwasher_auto.py	/^adjustment = .0625$/;"	v
+conv_factor	dishwasher_auto.py	/^conv_factor = 25.4$/;"	v
+main	dishwasher_auto.py	/^def main():$/;"	f
