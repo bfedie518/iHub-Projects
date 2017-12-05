@@ -25,7 +25,8 @@ header = '<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n\
     </rdf:RDF>\n\
   </metadata>\n'
 
-style = '    style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.00035278;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"\n'
+style = '    style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.00035278;\
+        stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"\n'
 
 
 conv_factor = 25.4
