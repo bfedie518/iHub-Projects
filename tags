@@ -3,7 +3,7 @@
 !_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
-!_TAG_PROGRAM_VERSION	5.8	//
-adjustment	.\Dishwasher_Sign\dishwasher_auto.py	/^adjustment = .0625$/;"	v
-conv_factor	.\Dishwasher_Sign\dishwasher_auto.py	/^conv_factor = 25.4$/;"	v
-main	.\Dishwasher_Sign\dishwasher_auto.py	/^def main():$/;"	f
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+adjustment	Dishwasher_Sign/dishwasher_auto.py	/^adjustment = .0625$/;"	v
+conv_factor	Dishwasher_Sign/dishwasher_auto.py	/^conv_factor = 25.4$/;"	v
+main	Dishwasher_Sign/dishwasher_auto.py	/^def main():$/;"	f
