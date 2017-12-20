@@ -3,7 +3,6 @@
  */
 
 //TODO: Change list to reflect door change
-//TODO: Change left door
 
 /* Parts List
  *
@@ -17,12 +16,11 @@
  * Bottom Cage:
  *   - 158in 2x4s
  *   - 58in cut-in-half 2x4s (29in 2x4) 
- *   - 22in 1.5"x1" wood (7.5in cut 2x4s)
- *   - 2in .5"x1" wood
- *   - 10in 5"x1" wood
+ *   - 23.25in 1.5"x1" wood (7.75in cut 2x4s)
+ *   - 16.25in 6"x1" wood
  *   - 21"x12" chloroplast (or other floor material)
  *   - 66"x9" hardware cloth
- *   - 2 hinges
+ *   - 4 hinges
  *   - 6 hooks & eye-hooks
  *
  * Bottom Interior:
@@ -35,16 +33,15 @@
  *
  *
  * TOTAL (not including top cage):
- *   - 304in (25 1/3 ft) 2x4s
+ *   - 304.25in (25 1/3 ft) 2x4s
  *
- *   - 2in .5"x1" wood
- *   - 10in 5"x1" wood
+ *   - 16.25in 6"x1" wood
  *   - 21.5in 1"x6" wood (2 5"x6"x1" pieces, 1 11.5"x6"x1" piece)
  *   - 4.25"x3"x.25" wood
  *
  *   - 21"x12" chloroplast (or other floor material)
  *   - 82in (6.9ft) 9" hardware cloth (or 66" [5.5ft] 15.5" cloth)
- *   - 4 hinges
+ *   - 6 hinges
  *   - 7 hooks & eye-hooks
  *
  *   - 2 8in ladders (or 1 16in ladder)
@@ -113,7 +110,7 @@ translate([0, 0, 0]){
     translate([20.5, 13.5, 1.5]) cube([3.5, 1.5, 12]); // Back-right
 
     // Horizontal supports bottom
-    translate([0, 7.5, 1.5]) cube([1.5, 6, 3.5]); // Left
+    translate([0, 8.5, 1.5]) cube([1.5, 5, 3.5]); // Left
     translate([22.5, 1.5, 1.5]) cube([1.5, 12, 3.5]); // Right
     translate([3.5, 0, 1.5]) cube([10, 1.5, 3.5]); // Front
     translate([3.5, 13.5, 1.5]) cube([17, 1.5, 3.5]); // Back
@@ -148,27 +145,30 @@ translate([0, 0, 0]){
 
     translate([14.5, 0, 1.5]) cube([6, 1, 6]); // Door
 
-    color(col_hinge) translate([19.5, -.5, 3]) cube([2, .5, 2]); // Hinge
-    color(col_hook) translate([14.5, -.5, 3]) cube([2, .5, 2]); // Hook
+    color(col_hinge) translate([19.5, -.5, 5]) cube([2, .5, 2]); // Hinge
+    color(col_hinge) translate([19.5, -.5, 2]) cube([2, .5, 2]); // Hinge
+    color(col_hook) translate([13.5, -.5, 3.5]) cube([2, .5, 2]); // Hook
 
 
     // Left door
-    translate([0, 6.5, 1.5]) cube([1.5, 1, 5]); // Back Frame
-    translate([0, 1.5, 6.5]) cube([1.5, 6, 1]); // Top Frame
+    translate([0, 7.5, 1.5]) cube([1.5, 1, 10.25]); // Back Frame
+    //translate([0, 1.5, 6.5]) cube([1.5, 6, 1]); // Top Frame
     //translate([1, 5.5, 5.5]) cube([.5, 1, 1]); // Stop
 
-    translate([0, 1.5, 1.5]) cube([1, 5, 5]); // Door
+    translate([0, 1.5, 1.5]) cube([1, 6, 10.25]); // Door
 
     color(col_hinge) translate([-.5, .5, 3]) cube([.5, 2, 2]); // Hinge
-    color(col_hook) translate([-.5, 5.5, 3]) cube([.5, 2, 2]); // Hook
+    color(col_hinge) translate([-.5, .5, 8]) cube([.5, 2, 2]); // Hinge
+    color(col_hook) translate([-.5, 6.5, 3]) cube([.5, 2, 2]); // Hook
+    color(col_hook) translate([-.5, 6.5, 8]) cube([.5, 2, 2]); // Hook
 
     // Mesh
     translate([2.5, 0, 4]) mesh(12, 9); // Front-left
     translate([14.5, 0, 7.5]) mesh(7, 5.5); // Front-right
 
     translate([2.5, 15, 4]) mesh(19, 9); // Back
-    translate([0, 14.5, 4]) rotate([0, 0, -90]) mesh(8, 9); // Left-back
-    translate([0, 6.5, 6.5]) rotate([0, 0, -90]) mesh(6, 6.5); // Left-front
+    translate([0, 14.5, 4]) rotate([0, 0, -90]) mesh(7, 9); // Left-back
+    //translate([0, 6.5, 6.5]) rotate([0, 0, -90]) mesh(6, 6.5); // Left-front
 
     translate([24, 14.5, 4]) rotate([0, 0, -90]) mesh(14, 9); // Right
 
