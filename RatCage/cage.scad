@@ -2,7 +2,6 @@
  *  Designed by: Brandon Fedie
  */
 
-//TODO: Change list to reflect door change
 
 /* Parts List
  *
