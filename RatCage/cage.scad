@@ -17,8 +17,8 @@
  *   - 58in cut-in-half 2x4s (29in 2x4) 
  *   - 23.25in 1.5"x1" wood (7.75in cut 2x4s)
  *   - 16.25in 6"x1" wood
- *   - 21"x12" chloroplast (or other floor material)
- *   - 66"x9" hardware cloth
+ *   - 21"x12" coroplast (or other floor material)
+ *   - 59"x9" hardware cloth
  *   - 4 hinges
  *   - 6 hooks & eye-hooks
  *
@@ -34,12 +34,11 @@
  * TOTAL (not including top cage):
  *   - 304.25in (25 1/3 ft) 2x4s
  *
- *   - 16.25in 6"x1" wood
- *   - 21.5in 1"x6" wood (2 5"x6"x1" pieces, 1 11.5"x6"x1" piece)
+ *   - 37.75in 6"x1" wood
  *   - 4.25"x3"x.25" wood
  *
- *   - 21"x12" chloroplast (or other floor material)
- *   - 82in (6.9ft) 9" hardware cloth (or 66" [5.5ft] 15.5" cloth)
+ *   - 21"x12" coroplast (or other floor material)
+ *   - 75in (6.9ft) 9" hardware cloth (or 59" [5.5ft] 15.5" cloth)
  *   - 6 hinges
  *   - 7 hooks & eye-hooks
  *
@@ -47,6 +46,26 @@
  *   - 15in hammock OR
  *     - 2 15.5" .25"-radius dowels
  *     - 15in fabric
+ *
+ * PRICE & Materials:
+ *   - 2in. x 4in. x 104-5/8 in Kiln-Dried Whitewood Stud
+ *     - HD: $3.43 x 3 = $10.29
+ *   - 24in. x 36in. x 0.157in. Black Twin WallS Plastic Sheet
+ *     - HD: $10.98 x 1 = $10.98
+ *   - Everbilt 1/2in. x 2ft. x 5ft. PVC Hardware Cloth
+ *     - HD: $6.48 x 1 = $6.48
+ *   - Everbilt 1in. Pin Narrow Utility Hinges (2-Pack)
+ *     - HD: $1.48 x 3 = $4.44
+ *   - 1in. Zinc-Plated Steel Gate Hook and Eye
+ *     - HD: $1.18 x 7 = 8.26
+ *   - Screw Eye
+ *     - HD: $5.21-$7.77
+ *   - All Living Things Parakeet Ladder
+ *     - PetSmart: $4.49 x 2 = $8.98
+ *   - Rat Hammock
+ *     - $10
+ *
+ *   Total: $67.20
  */
 
 
